@@ -3,7 +3,7 @@
 require('function.php');
 
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
-debug('TOPページ');
+debug('TOPページです');
 debug('」」」」」」」」」」」」」」」」」」」」」」」」」」」」');
 debugLogStart();
 
