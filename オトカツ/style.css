@@ -1,0 +1,756 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+    color: white;
+    height: 60px;
+    text-align: center;
+
+}
+
+.header-wrapper{
+    width:1200px;
+    height:60px;
+    margin: auto;
+}
+
+.header-wrapper a{
+    color:white;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    padding-left: 50px;
+    font-size: 24px;
+    line-height: 60px;
+}
+
+header i{
+    float: right;
+}
+
+header p {
+    margin: 0;
+    padding: 0;
+    float: right;
+    line-height: 60px;
+    padding-right: 10px;
+    margin-right: 40px;
+    color: white;
+}
+
+header p:last-child {
+    margin-right: 10px;
+}
+
+
+
+
+.header-menu-wrapper{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    height:60px;
+    margin-bottom: 0;
+}
+
+.header-menu-wrapper a{
+    color:white ;
+    text-decoration: none;
+}
+.header-menu-wrapper p{
+    height:30px;
+}
+
+
+
+
+main h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 980px;
+    margin-top: 80px;
+}
+
+.form-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    border: 4px solid #ada8a8;
+    padding: 50px 40px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.form-wrapper h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.form-wrapper input[type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    padding-left: 6px;
+    background: #f6f5f5;
+    margin-bottom: 0;
+}
+
+.form-wrapper p {
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 10px;
+    ;
+}
+
+.form-title {
+    font-size: 20px;
+}
+
+.err {
+    background: #f18c8c !important;
+}
+
+.err_msg {
+    color: red;
+}
+
+.btn-wrapper {
+    overflow: hidden;
+    height: 50px;
+}
+
+.btn {
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    background: black;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.easy{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color:rgb(94, 92, 92);
+    padding:10px;
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    background: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* ==================================== */
+
+
+/* TOPページのCSS */
+
+
+/* ===================================== */
+
+.main-wrapper {
+    overflow: hidden;
+}
+
+
+/* サイドバー関係 */
+
+.top-banner {
+    height: 600px;
+    width: 100%;
+    background-image: url(pic/concert-3387324_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.top-banner h1 {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+
+    padding-top: 200px;
+}
+
+.side-bar {
+    width: 25%;
+    padding: 20px;
+    height: 350px;
+    background-color: rgb(177, 180, 180);
+    float: left;
+    margin-right: 50px;
+    
+}
+
+.side-bar select {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.side-bar p:first-child{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* メインコンテンツ */
+
+.main-contents {
+    overflow: hidden;
+    margin-left: 50px;
+    width: 65%;
+    text-align: center;
+}
+
+.main-contents-wrapper {
+    float: left;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.match {
+    width: 100%;
+    background-color: rgb(201, 204, 204);
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    margin-right: 65px;
+    
+}
+
+.match-left {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.match-right {
+    float: right;
+    margin-right: 60px;
+    padding: 0;
+}
+
+.box {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 280px;
+}
+
+.box img {
+    width: 100%;
+    height:100%;
+}
+.top-img-wrapper{
+    width:180px;
+    height:140px;
+}
+
+.box h1 {
+    margin-top: 20px;
+    
+}
+
+.box-wrapper {
+    overflow: hidden;
+}
+
+.pagenetion{
+    width:100%;
+    height:90px;
+    text-align: center;
+   float: left;
+   margin: 0 auto;
+   margin-bottom: 40px;
+}
+
+.pagenetion-list{
+    width:60%;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    height:100px;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-style,.list-item{
+    color: black;
+    margin:0 5px;
+    /* position: relative;
+    top:10px;
+    width:30px;
+    height:30px;
+    border: 1px solid black; */
+}
+
+.pagenetion-list>li:first-child{
+    margin-left: 10px;;
+}
+
+.list-style>a,.list-item>a{
+    color: black;
+    text-decoration: none;
+    padding:10px;
+    background-color: #f6f5f5;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.pagenetion-list .active a{
+    background-color: #b1b4b4;
+}
+
+
+
+/* ========================================*/
+
+
+/* 退会画面 */
+
+
+/* ========================================= */
+
+.withdrawal-btn-wrapper {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.withdrawal-btn {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(75, 73, 73);
+}
+
+.withdrawal-btn-wrapper p{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+
+
+
+/* ======================================= */
+
+
+/* プロフィール編集画面 */
+
+
+/* ======================================= */
+.profileEdit-main-wrapper{
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.profile-title {
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.profile-edit{
+    width:100%;
+    margin-right: 0;
+
+}
+
+.profile-edit-wrapper {
+    width: 100%;
+    float:left;
+    margin-right: 100px;
+    padding:30px 40px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+}
+
+.profile-edit-wrapper p {
+    text-align: left;
+    padding-left: 5px;
+    margin: 20px 0;
+
+}
+
+
+
+.profile-edit-wrapper img {
+    width:90%;
+    height:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-edit-wrapper input[type="text"],.profile-edit-wrapper textarea,.profile-edit-wrapper input[type="age"],.select{
+    font-size: 90%;
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    border: none;
+    padding-left: 6px;
+    background: #f6f5f5;
+}
+
+.profile-edit-wrapper textarea{
+    height:200px;
+}
+
+.count{
+    text-align: right;
+}
+
+.profile-edit-wrapper input[type="age"]{
+    width:6%;
+}
+
+.prfileEdit-btn {
+    margin-right:30px;
+}
+
+.prfileEdit-btn-wrapper{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/* メニューバー */
+
+
+.menu-bar{
+    border: 1px solid rgb(109, 104, 104);
+    overflow: hidden;
+    width:20%;
+    height:200px;
+    padding:40px 10px;
+    background-color: #f6f5f5;
+}
+
+.menu-bar-wrapper{
+    float: left;
+}
+
+.menu-bar-wrapper a{
+    margin-top: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.menu-bar-wrapper p{
+    margin-top: 20px;
+    
+}
+
+.menu-bar h1{
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* ============================================= */
+/* 画像アップロード処理 */
+/* ============================================= */
+
+.img-wrapper {
+    width: 30%;
+    height:200px;
+    text-align: center;
+    padding:5px;
+    border:1px dotted #313130;
+    margin-bottom: 30px;
+    position: relative;
+    line-height: 200px;
+    color:rgba(36, 35, 34,0.4);
+    background-color: rgba(246, 245, 244);
+    
+}
+
+.prev-img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+
+}
+
+.input-file{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    z-index: 10;
+}
+
+
+/* ======================================================= */
+/* アーティスト詳細画面 */
+/* ======================================================= */
+
+
+.detail-wrapper h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.detail-wrapper img{
+    float: left;
+    margin-right: 130px;
+    margin-left: 90px;
+}
+
+.detail-wrapper .top{
+    overflow: hidden;
+}
+
+.detail-wrapper .name{
+   font-size: 48px;
+}
+
+.detail-wrapper .category{
+    display: inline;
+    padding:5px 30px;
+    border-radius: 5px;
+   background-color: rgb(247, 56, 167);
+   color:white;
+}
+
+.right td{
+    padding-bottom: 50px;
+}
+
+.right .title{
+    padding-right: 30px;
+}
+
+
+.editArtist{
+    text-align: right;
+}
+
+.detail .profile{
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #f6f5f5;
+    margin-top: 40px;
+    /* margin-left: 50px; */
+    margin-bottom: 40px;;
+    min-height: 600px; 
+}
+
+.detail img{
+    width:28%;
+}
+
+
+.detail-wrapper a{
+    color:black;
+    text-decoration: none;
+}
+.detail-wrapper .back{
+    margin-bottom: 60px;
+}
+
+.comment-title{
+    margin-left: 50px;
+}
+
+
+.comment{
+    display: block;
+    width:80%;
+    padding: 10px;
+    margin:auto;
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    background-color: #f6f5f5;
+    border:none;
+}
+
+.comment-btn{
+    width:20%;
+}
+
+
+.board{
+    /* background-color:#f6f5f5; */
+    width: 80%;
+    margin:auto;
+}
+
+.message-wrapper{
+    margin:20px 0px;
+    margin-bottom: 100px;
+    padding:10px;
+    background-color: rgb(198, 248, 148);
+}
+
+.message-wrapper .pic{
+    width:10%;
+    padding-top: 10px;;
+   display: block;
+}
+.comment-wrapper{
+    overflow: hidden;
+    margin:0;
+    min-height: 100px;
+}
+
+.message-wrapper .message{
+    width:80%;
+    float: left;
+    word-break: break-all;
+}
+
+.message-wrapper.send_date{
+    text-align: left!important;
+    margin-bottom: 10px;;
+}
+
+.icon-wrapper{
+    width:100%;
+    text-align: right;
+    position: relative;
+}
+
+.icon-wrapper .fa-heart{
+    position: absolute;
+    right:0;
+    
+}
+
+.icon-wrapper .active{
+    color:red;
+}
+
+.fa-times{
+    color:red;
+}
+
+/* ============================================ */
+/* マイページ */
+/* ============================================= */
+
+.mypageDetail .age{
+    font-size: 24px;;
+}
+
+.mypageDetail .userprofile{
+    min-height: 200px;
+}
+
+.favorite>.box-wrapper,.resister>.box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.favorite-box,.resister-box{
+    width:28%;
+    text-align: left;
+}
+
+
+
+.favorite-box img,.resister-box img{
+    margin-left:28px;
+}
+
+.favorite{
+    text-align: left!important;
+    min-height: 200px;
+}
+
+.to-profileEdit{
+    text-align: right;
+}
+
+
+.sub-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.resister{
+    min-height:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
